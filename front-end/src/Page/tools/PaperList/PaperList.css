@@ -1,0 +1,26 @@
+.PLoutside{
+    width:80%;
+    height:auto;
+    margin:20px 0px 20px 30px;
+}
+.PLtitle{
+    width:80%;
+    height:20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin:10px 0px 10px 20px;
+}
+.PLAuthor{
+    width:80%;
+    height:18px;
+    font-size: 14px;
+    font-weight: normal;
+    margin:10px 0px 10px 20px;
+}
+.PLFrom{
+    width:80%;
+    height:18px;
+    font-size: 14px;
+    font-weight: normal;
+    margin:10px 0px 10px 20px;
+}

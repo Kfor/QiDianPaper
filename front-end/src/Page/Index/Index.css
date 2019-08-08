@@ -1,0 +1,29 @@
+.IndexOutSide{
+    width:100%;
+    min-height:100vh;
+    background: #ffffff;
+}
+.IndexTopBar{
+    height:260px;
+    width:100%;
+    background: rgba(33,102,229,0.9);
+}
+.buttonBar{
+    height:60px;
+    width:100%;
+    background: rgba(29, 95, 219, 0.9);
+    padding-right: 20px;
+}
+.searchBar{
+    height:200px;
+    width:100%;
+    padding:20px 100px;
+}
+.selectBar{
+    height:80px;
+    width:80%;
+}
+.Rankings{
+    width:90%;
+    flex-wrap:wrap; 
+}

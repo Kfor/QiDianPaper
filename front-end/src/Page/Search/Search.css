@@ -1,0 +1,44 @@
+.SearchOutSide{
+    width:100%;
+    height:100vh;
+    background:#e9e9e9;
+    padding:100px 0px;
+}
+.SearchInfo{
+    width:30%;
+    height:900px;
+    background: #e2e2e2;
+    border-right: 1px solid rgb(139, 139, 139);
+}
+.SearchContent{
+    width:70%;
+    height:900px;
+}
+.SearchInfoTitle{
+    width:100%;
+    height:200px;
+    background: #d3d2d2;
+    padding:0px 30px;
+    border-bottom: 1px solid rgb(139, 139, 139);
+}
+.SearchResultTitle{
+    font-size:30px;
+    font-weight:bolder;
+    
+}
+.SearchResultTitle p{
+    font-size:30px;
+    font-weight:bold;
+    margin: 0px;
+}
+.SearchContentTitle{
+    width:100%;
+    height:100px;
+    padding:0px 30px;
+    font-size: 1.4em;
+    background: #dfdfdf;
+    border-bottom: 1px solid rgb(139, 139, 139);
+}
+.SearchChoice{
+    width:400px;
+}
