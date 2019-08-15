@@ -1,7 +1,8 @@
 .PLoutside{
-    width:80%;
+    width:90%;
     height:auto;
-    margin:20px 0px 20px 30px;
+    margin:10px 0px 10px 0px;
+    border:1px solid #222;
 }
 .PLtitle{
     width:80%;
@@ -23,4 +24,15 @@
     font-size: 14px;
     font-weight: normal;
     margin:10px 0px 10px 20px;
+}
+.PLinfo{
+    height:auto;
+    width:90%;
+}
+.PLnumber{
+    width:10%;
+    height: 100%;
+    padding: 20px 0px;
+    font-size: 1rem;
+    font-weight: bold;
 }

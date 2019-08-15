@@ -7,21 +7,19 @@ import { Input } from 'antd';
 import { Checkbox } from 'antd';
 import RK from '../tools/Ranking/RK';
 const { Search } = Input;
-const ButtonGroup = Button.Group;
+
 const constData ={
     options:["学术期刊","博硕","会议","报纸","年鉴","专利","标准","成果"]
 }
 class Index extends React.Component{
+/*     constructor(props){
+
+    } */
     render(){
         return (
             <div className="IndexOutSide scFlexColumn">
                 <div className="IndexTopBar scFlexColumn">
-                    <div className="buttonBar ecFlexRow">
-                        <ButtonGroup>
-                            <Button type="default"><Link to="/Login">登录</Link></Button>
-                            <Button type="primary">注册</Button>
-                        </ButtonGroup>
-                    </div>
+                    
                     <div className="searchBar ccFlexColumn">
                         <Search
                             placeholder="中文文献、外文文献"

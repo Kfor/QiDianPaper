@@ -7,6 +7,7 @@ class RK extends React.Component{
         let arr =[]
         for(let i=0;i<10;i++){
             let item={
+                key:i,
                 type:"区块链",
                 title:" 基于区块链的论文审核机制",
                 author:"王旌权"
@@ -16,7 +17,7 @@ class RK extends React.Component{
         return arr;
     }
     ItemToData =(item)=>(
-    <div className="RankingInfo bcFlexRow">
+    <div className="RankingInfo bcFlexRow" key={item.key}>
         <div className="RankingInfoType">
             [{item.type}]
         </div>

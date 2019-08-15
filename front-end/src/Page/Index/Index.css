@@ -1,5 +1,5 @@
 .IndexOutSide{
-    width:100%;
+    width:1536px;
     min-height:100vh;
     background: #ffffff;
 }
@@ -8,12 +8,6 @@
     width:100%;
     background: rgba(33,102,229,0.9);
 }
-.buttonBar{
-    height:60px;
-    width:100%;
-    background: rgba(29, 95, 219, 0.9);
-    padding-right: 20px;
-}
 .searchBar{
     height:200px;
     width:100%;
@@ -21,7 +15,7 @@
 }
 .selectBar{
     height:80px;
-    width:80%;
+    width:100%;
 }
 .Rankings{
     width:90%;
